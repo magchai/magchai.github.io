@@ -1,0 +1,11 @@
+
+.sitenav li {
+    display: inline-block;
+    float: right;
+    
+}
+
+.leftcol {
+    float: left;
+
+}
