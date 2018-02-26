@@ -1,11 +1,64 @@
+.container {
+    padding: 30px 25px;
+}
+
+.container .heading {
+    display: inline-block;
+}
+
+.container .nav {
+    float: right;
+    padding: 0.8rem 5rem 0.8rem 0.8rem;
+}
+
+.container p {
+    color: #c9c9c9;
+    font-size: 1rem;
+}
+
+.container header {
+    font-size: 1.8rem;
+}
+
+.sitenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
 
 .sitenav li {
     display: inline-block;
-    float: right;
-    
+    padding-right: 3rem;
+}
+
+.sitenav li a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #3b3a3a;
+    font-size: 1.3rem;
+}
+
+.sitenav li a:hover {
+    color: #63d488;
+}
+
+.sitenav li.active a {
+    color: #63d488;
+}
+
+.sitenav li.mail a {
+    color: #c9c9c9;
+    font-weight: 100;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,sans-serif;
 }
 
 .leftcol {
-    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    margin: 0;
+    padding: 0;
 
 }
