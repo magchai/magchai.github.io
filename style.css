@@ -78,11 +78,7 @@ li a:hover {
 }
 #projects {
    height: 1000px;
-   font-size: 1.1rem;
-}
-.btt {
-    margin-top: 870px;
-    margin-bottom: -860px;   
+   font-size: 1.1rem;  
 }
 .btt a:hover {
     color: red;
