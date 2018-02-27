@@ -2,12 +2,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: whitesmoke;
+}
+
 .header {
     padding: 1.5rem 2.5rem;
     height: 12rem;
     font-size: 1.1rem;
     font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,sans-serif;
-    color: #3b3a3a;
+    color: black;
     font-weight: 300;
     border-top: solid 0.1rem #63d488;
     margin: -0.5rem;
@@ -33,7 +37,7 @@
 li a {
     vertical-align: text-top;
     text-decoration: none;
-    color: #3b3a3a;
+    color: black;
 }
 
 li a:hover {
@@ -48,6 +52,45 @@ li a:hover {
 .main-1 {
     font-weight: normal;
     font-size: 2rem;
+}
+.content {
+    display: block;
+    padding-bottom: 5rem;
+}
+
+/* navigation */
+.mainbody{
+   position: absolute;
+   top: 100%;
+   left: 2%;
+   font-size: 1.1rem;
+   font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,sans-serif;
+   color: #3b3a3a;
+   font-weight: 300;
+}
+#about {
+   margin-bottom: 880px;
+   font-size: 1.1rem;
+}
+#blog {
+   margin-bottom: 880px;
+   font-size: 1.1rem;
+}
+#projects {
+   margin-bottom: 15px;
+   font-size: 1.1rem;
+}
+.btt {
+    margin-top: 870px;
+    margin-bottom: -860px;   
+}
+.btt a:hover {
+    color: red;
+}
+.btt a {
+    text-decoration: none;
+    color: firebrick;
+    font-weight: 500;
 }
 
 
