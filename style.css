@@ -92,6 +92,18 @@ li a:hover {
     right: 0;
 }
 
+/* Projects */
+.project1 {
+    padding: 3rem 3rem 3rem 0;
+}
+.pname {
+    text-decoration: underline;
+    color: darkgreen;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+}
+
 
 /* special font color */
 
