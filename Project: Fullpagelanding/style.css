@@ -1,11 +1,12 @@
 body {
-     color: white;
+     color: rgba(206, 191, 191, 0.98);
      background-color: black;
      background: url(./bg.png) no-repeat center fixed;
      background-size: cover;
      height: 100%;
      overflow: hidden;
      position: relative;
+     font-family: Helvetica, sans-serif;
 }
 .header {
     background-color: rgba(0, 0, 255, 0.2);
@@ -14,7 +15,8 @@ body {
 .header-logo {
     display: inline-block; 
     font-size: 2rem;
-    padding-left: 15%;  
+    padding-left: 15%;
+    font-weight: lighter;  
 }
 .mainnav {
     float: right;
@@ -31,4 +33,16 @@ body {
     width: 30px;
     height: 30px;
     object-fit: contain;
+}
+
+/* back */
+
+.btm {
+    text-decoration: none;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: firebrick;
+    font-weight: 500;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
