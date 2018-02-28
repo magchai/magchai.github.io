@@ -10,19 +10,14 @@
 
 }
 
+/* words */
+
 .bigwords {
     font-size: 2em;
 }
 
 .info p {
     margin: 0;
-}
-
-/* Pic */
-
-img {
-    border-radius: 50%;
-    padding: 15px;
 }
 
 li {
@@ -39,3 +34,24 @@ li {
     padding-top: 17px;
     padding-right: 22px;
 }
+
+
+/* Pic */
+
+img {
+    border-radius: 50%;
+    padding: 15px;
+}
+
+/* back */
+
+.btm {
+    text-decoration: none;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: firebrick;
+    font-weight: 500;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
