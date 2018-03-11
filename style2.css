@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+.header {
+    padding: 1.5rem 2.5rem;
+    height: 12rem;
+    font-size: 1.1rem;
+    font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,sans-serif;
+    color: black;
+    font-weight: 300;
+    border-top: solid 0.1rem #63d488;
+    margin: -0.5rem;
+}
+.leftcol{
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+.leftcol p {
+   list-style-type: none;
+   padding: 0;
+   margin: 0;
+}
+
+.mainnav li {
+    list-style-type: none;
+    padding-left: 3rem; 
+    margin: 0 1rem;
+}
+
+li a {
+    vertical-align: text-top;
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: #63d488;
+}
+
+.mainnav {
+    padding-right: 2.5rem;  
+}
+
+.main-1 {
+    font-weight: normal;
+    font-size: 2rem;
+}
+.content {
+    display: block;
+    padding-bottom: 5rem;
+}
+
+/* navigation */
+.mainbody{
+   position: absolute;
+   top: 100%;
+   left: 2%;
+   font-size: 1.1rem;
+   font-family: Maison Neue,Helvetica Neue,Helvetica,Arial,sans-serif;
+   color: #3b3a3a;
+   font-weight: 300;
+}
+#about {
+   height: 1000px;
+   font-size: 1.1rem;
+}
+#blog {
+   height: 1000px;
+   font-size: 1.1rem;
+}
+#projects {
+   height: 1000px;
+   font-size: 1.1rem;  
+}
+.btt a:hover {
+    color: red;
+}
+.btt a {
+    text-decoration: none;
+    color: firebrick;
+    font-weight: 500;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+/* flexbox */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.leftcol {
+    flex-grow: 2;
+}
+
+/* Projects */
+
+.pname {
+    color: darkgreen;
+    font-weight: 300;
+    margin: 0;
+    display: inline-block;
+}
+
+.spbg img {
+    width: 423px;
+    height: 219px;
+}
+
+
+/* special font color */
+
+.grey {
+    color: lightgrey;
+}
+
+.green {
+    color: #63d488;
+}
+
+/* pseudo */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
