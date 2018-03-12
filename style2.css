@@ -136,15 +136,16 @@ body {
 .mid {
     justify-content: auto;
     align-self: auto;
-    flex-grow: 1;
+    flex: 1 0 auto;
 }
 .copyright {
     flex-shrink: 0;
+    align-self: flex-end;
 }
 .footer {
     height: 50vh;
     background-color: black;
-    padding-left: 50vh;
+    padding: 0 50vh;
 }
 .left {
     padding-left: 0;
