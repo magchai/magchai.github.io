@@ -1,0 +1,50 @@
+*{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+
+/* styling box */
+
+h3 {
+    font-size: 10vh;
+    color: brown;
+    text-align: center; 
+}
+
+.box {
+    width: 30vh;
+    height: 30vh;
+    background-color: black;
+    color: aliceblue;
+    font-size: 8vh;
+    text-align: center;
+}
+
+/* grid */
+
+.grid-con {
+    display: grid;
+    grid-template-rows: 30vh 30vh 30vh;
+    grid-template-columns: 30vh 30vh 30vh;
+    grid-gap: 5vh 10vh;
+    padding: 0 30vh;
+    align-content: start;
+}
+
+h3 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.five {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    width: auto;
+}
+
+.six {
+    grid-column-start: 1;
+    grid-column-end: 4;
+    width: auto;
+    background-color: blue;
+    color: grey;
+}

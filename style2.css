@@ -140,7 +140,7 @@ body {
 }
 .copyright {
     flex-shrink: 0;
-    align-self: flex-end;
+    align-self: auto;
 }
 .footer {
     height: 50vh;
