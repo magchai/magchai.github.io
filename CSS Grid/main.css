@@ -12,8 +12,6 @@ h3 {
 }
 
 .box {
-    width: 30vh;
-    height: 30vh;
     background-color: black;
     color: aliceblue;
     font-size: 8vh;
@@ -24,8 +22,8 @@ h3 {
 
 .grid-con {
     display: grid;
-    grid-template-rows: 30vh 30vh 30vh;
-    grid-template-columns: 30vh 30vh 30vh;
+    grid-template-rows: 1fr 30vh 30vh 30vh;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5vh 10vh;
     padding: 0 30vh;
     align-content: start;
