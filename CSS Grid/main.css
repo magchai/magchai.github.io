@@ -74,6 +74,7 @@ h3 {
 }
 .field {
     grid-column: 1/5;
+    resize: none;
 }
 .ac {
     grid-column: 1/3;
