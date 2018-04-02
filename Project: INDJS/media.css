@@ -1,0 +1,35 @@
+/* whole counter placement */
+
+.counter {
+    padding: 15vh 15vh;
+    margin: 20vh 20vh;
+    display: inline-grid;
+    grid-template-columns: 10vh 10vh;
+    grid-template-rows: 15vh 10vh 10vh;
+    align-items: center;
+    justify-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 8vh;
+    background-color: black;
+    grid-gap: 2vh;
+}
+
+.heading {
+    grid-column: 1/3;
+    color: aliceblue;
+}
+
+.valueBox {
+    grid-column: 1/3;
+    color: antiquewhite;
+}
+
+/* button styles */
+
+button {
+    border: none;
+    text-decoration: none;
+    font-size: 5vh;
+    background-color: black;
+    color: aliceblue;
+}
