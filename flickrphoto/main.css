@@ -1,0 +1,9 @@
+#searchfield {
+    margin-left: 6vh;
+}
+
+.img-thumbnail {
+    width: 50vh;
+    height: 50vh;
+    object-fit: cover; 
+}

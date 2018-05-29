@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flickr photo Search</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Flickr Photo Search</h1>
+                <p class="lead">This page uses bootstrap css and Ajax.</p>
+            </div>
+            <form id="form" class="form-inline">
+                <input id="searchfield" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button id="submitbtn" class="btn btn-outline-success my-2 my-sm-0" type="submit" >Search</button>
+            </form>
+        </div>
+        <div>
+            <ul id="photo">
+
+            </ul>
+
+        </div>
+    </div>
+</body>
+</html>
