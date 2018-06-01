@@ -5,14 +5,13 @@ $(document).ready(function () {
         var $searchField = $('#searchfield');
         var $submitButton = $('#submitbtn');
 
-        $searchField.prop("disabled", true);
-        $submitButton.attr("disabled", true).val("Searching...");
-        //AJAX
-        var flickrAPI = "http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
+        $searchField.prop('disabled', true);
+        $submitButton.attr('disabled', true).val('Searching...');
+        var flickrAPI = 'http://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?';
         var animal = $searchField.val();
         var flickrOptions = {
             tags: animal,
-            format: "json"
+            format: 'json'
         };
         function displayPhotos(data){
             var photoHTML = '<ul class="list-unstyled row">';
@@ -23,12 +22,9 @@ $(document).ready(function () {
             });
             photoHTML += '</ul>';
             $('#photo').html(photoHTML);
-            $searchField.prop("disabled", false);
-            $submitButton.attr("disabled", false).val("Search");
+            $searchField.prop('disabled', false);
+            $submitButton.attr('disabled', false).val('Search');
         }
         $.getJSON(flickrAPI, flickrOptions, displayPhotos);
     });
-    
-    
-
 }); // end ready
