@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Currency Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</head>
+<body class="bg-dark text-white">
+    <div class="container row mx-auto mt-5 p-3 mb-2">
+        <div id="left" class= "col">
+            <h2>Technologies used</h2>
+            <ul>
+                <li>Ajax</li>
+                <li>Bootstrap</li>
+                <li>Jquery</li>
+            </ul>
+        </div>
+        <div id="right" class = "col">
+            <h2>Currency Converter</h2>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <select id="cdropFrom" class="mb-3 text-info">
+                        <option selected>From Currency</option>
+                    </select>
+                    <div class="form-group">
+                        <input type="number" class="form-control" id="convertFrom" placeholder="Amount">
+                    </div>
+            </div> 
+            <div class="input-group">
+                <div class="form-group">
+                    <input type="number" class="form-control" id="convertTo" placeholder="Amount">
+                </div>
+                <div class="input-group-append">
+                    <select id="cdropTo" class="custom-select mb-3 text-info">
+                    </select>
+                </div>
+            </div>
+        </div> 
+    </div>
+</body>
+</html>
